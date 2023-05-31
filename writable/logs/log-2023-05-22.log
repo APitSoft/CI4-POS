@@ -1,0 +1,6 @@
+CRITICAL - 2023-05-22 06:23:15 --> Call to a member function where() on null
+in APPPATH\Controllers\CommonFun.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CommonFun->common_edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CommonFun))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,121 @@
+CRITICAL - 2023-04-30 06:24:30 --> syntax error, unexpected '}', expecting ')'
+in APPPATH\Views\admin\penjualan\datacustomer.php on line 311.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/penjualan/datacustomer', [], true)
+ 3 APPPATH\Views\layout\layout.php(45): view('admin/penjualan/datacustomer')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\wamp64\\www\\indo\\app\\Views\\layout\\layout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/layout', [], true)
+ 7 APPPATH\Controllers\Penjualan.php(18): view('layout/layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Penjualan->data_customer()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-30 10:40:56 --> mysqli_sql_exception: Unknown column 'daftar_marketing' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `daftar_...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `daftar_...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `daftar_...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `daftar_...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Penjualan.php(212): CodeIgniter\Database\BaseBuilder->update('daftar_marketin...')
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Penjualan->marketing_add('2')
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 10:40:56 --> Unknown column 'daftar_marketing' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `daftar_marketing` SET `daftar_marketing` = :daftar_marketing:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Penjualan.php(212): CodeIgniter\Database\BaseBuilder->update('daftar_marketing')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Penjualan->marketing_add('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-30 10:40:59 --> mysqli_sql_exception: Unknown column 'daftar_marketing' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `daftar_...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `daftar_...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `daftar_...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `daftar_...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Penjualan.php(212): CodeIgniter\Database\BaseBuilder->update('daftar_marketin...')
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Penjualan->marketing_add('2')
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 10:40:59 --> Unknown column 'daftar_marketing' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `daftar_marketing` SET `daftar_marketing` = :daftar_marketing:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Penjualan.php(212): CodeIgniter\Database\BaseBuilder->update('daftar_marketing')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Penjualan->marketing_add('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-30 10:41:04 --> mysqli_sql_exception: Unknown column 'daftar_marketing' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `daftar_...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `daftar_...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `daftar_...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `daftar_...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Penjualan.php(212): CodeIgniter\Database\BaseBuilder->update('daftar_marketin...')
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Penjualan->marketing_add('2')
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 10:41:04 --> Unknown column 'daftar_marketing' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `daftar_marketing` SET `daftar_marketing` = :daftar_marketing:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Penjualan.php(212): CodeIgniter\Database\BaseBuilder->update('daftar_marketing')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Penjualan->marketing_add('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-04-30 10:41:12 --> mysqli_sql_exception: Unknown column 'daftar_marketing' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `daftar_...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `daftar_...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `daftar_...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `daftar_...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Penjualan.php(212): CodeIgniter\Database\BaseBuilder->update('daftar_marketin...')
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Penjualan->marketing_add('2')
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-30 10:41:12 --> Unknown column 'daftar_marketing' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `daftar_marketing` SET `daftar_marketing` = \'\'
+WHERE `id` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `daftar_marketing` SET `daftar_marketing` = :daftar_marketing:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Controllers\Penjualan.php(212): CodeIgniter\Database\BaseBuilder->update('daftar_marketing')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Penjualan->marketing_add('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

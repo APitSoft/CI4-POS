@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+/* ================Rayhan Css=============== */
+/* h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300 !important;
+} */
+
+.page-breadcrumb.breadcrumb {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    padding-right: 30px;
+    padding-left: 8px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border: 0px !important;
+    background-color: #eee;
+}
+
+.page-breadcrumb.breadcrumb>li>a,
+.page-breadcrumb.breadcrumb>li>i,
+.page-breadcrumb.breadcrumb>li>span {
+    color: #615f5f;
+    font-size: 14px;
+    text-shadow: none;
+}
+
+.page-breadcrumb.breadcrumb>li>i {
+    margin: 0px 5px;
+}
+
+.page-breadcrumb.breadcrumb>li>a:hover {
+    text-decoration: underline !important;
+}
+
+.page-title {
+    padding: 0px;
+    font-size: 30px;
+    letter-spacing: -1px;
+    display: block;
+    color: #666;
+    margin: 0px 0px 15px 0px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page-title small {
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    color: #888;
+}
+
+.note-success {
+    background-color: #EBFCEE;
+    border-color: #3cc051;
+}
+
+.note {
+    margin: 0 0 20px 0;
+    padding: 15px 30px 15px 15px;
+    border-left: 5px solid #3cc051;
+}
+
+/* Portlet Box Style  */
+.portlet {
+    clear: both;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding: 0px;
+}
+
+.portlet.box {
+    padding: 0px !important;
+}
+
+.portlet.box.blue {
+    border: 1px solid #b4cef8;
+    border-top: 0;
+}
+
+.portlet.box.blue>.portlet-title {
+    background-color: #4b8df8;
+    padding: 8px 10px 2px 10px;
+    border-bottom: 1px solid #eee;
+    color: #fff !important;
+}
+
+.portlet>.portlet-title>.caption {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+label {
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-size: 15px !important;
+    margin-bottom: 5px !important;
+}
+
+.badge.bg-warning {
+    font-size: 11px !important;
+    border-radius: 0px !important;
+    font-weight: bold !important;
+    background-color: #fda816 !important;
+}
+
+/* Pra Pembelian */
+/* .label.label-sm {
+    font-size: 12px;
+    padding: 1px 4px 1px 4px;
+}
+
+.label-warning, .badge-warning {
+    background-color: #fcb322;
+    background-image: none !important;
+} */
+
+/* Data Table CSS Here */
+.datatable-example {
+    margin-bottom: 15px !important;
+}
+
+.datatable-example table thead tr th,
+.datatable-example table tbody tr td,
+.datatable-example table tfoot tr td {
+    text-align: center;
+    border-right: 1px solid #c6c6c6;
+}
+
+.datatable-example table thead tr th:last-child,
+.datatable-example table tbody tr td:last-child,
+.datatable-example table tfoot tr td:last-child {
+    text-align: center;
+    border-right: none;
+}
+
+.datatable-example table {
+    border: 1px solid #c6c6c6;
+}
+
+.datatable-example table thead {
+    background-color: #e1e1e1;
+}
+
+.dataTables_length,
+.dataTables_filter {
+    margin-bottom: 8px !important;
+}
+
+.dataTables_length label,
+.dataTables_filter label {
+    font-size: 13px !important;
+    text-transform: capitalize !important;
+}
+
+.dataTables_info {
+    text-transform: capitalize !important;
+}
+
+.dataTables_paginate,
+.dataTables_info {
+    margin-top: 8px !important;
+}
+
+/* tbody Shadow Effect */
+table.dataTable.display tbody tr:hover>.sorting_1,
+table.dataTable.order-column.hover tbody tr:hover>.sorting_1 {
+    box-shadow: none !important;
+}
+
+table.dataTable.display>tbody>tr.odd>.sorting_1,
+table.dataTable.order-column.stripe>tbody>tr.odd>.sorting_1 {
+    box-shadow: none !important;
+}
+
+/* ================Rayhan CSS End=============== */
+.breadcrumb {
+    background-color: #eee;
+}
+
+.breadcrumb-item i {
+    font-size: 20px;
+}
+
+
+.add-btn {
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 0px !important;
+}
+
+.add-btn i {
+    transform: scale(1.3);
+    color: #fff !important;
+}
+
+.add-btn:hover {
+    color: #fff !important;
+}
+
+.refresh-btn {
+    border: 1px solid #ccc !important;
+    border-radius: 0px !important;
+}
+
+.form-group {
+    /* margin-bottom: 10px !important; */
+    text-align: right;
+}
+
+/* .input-group {
+    position: relative;
+}
+
+.input-group-btn {
+    position: absolute;
+    left: 101%;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+} */
+
+.form-group input,
+.form-group select,
+.form-group .input-group-btn {
+    height: 38px !important;
+}
+
+.form-group .input-group-btn {
+    border: 1px solid transparent;
+}
+
+.control-label {
+    font-size: 13px !important;
+}
+
+/* Validation Message Color  */
+.help-block {
+    color: red !important;
+}

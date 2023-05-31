@@ -1,0 +1,265 @@
+CRITICAL - 2023-05-03 05:58:28 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 05:58:50 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:03:29 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:11:14 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:11:20 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:11:21 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:11:32 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:11:39 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:18:57 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:20:23 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:20:24 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:20:38 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:21:39 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:21:39 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 06:21:41 --> Call to a member function model() on null
+in APPPATH\Controllers\Inventory.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Inventory->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 06:27:54 --> mysqli_sql_exception: Table 'indo_db.supplier' doesn't exist in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\wamp64\www\indo\app\Views\admin\pembelian\transaksi\pesananpembelianentri.php(36): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\View\View.php(213): include('D:\\wamp64\\www\\i...')
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Common.php(1184): CodeIgniter\View\View->render('admin/pembelian...', Array, true)
+#8 D:\wamp64\www\indo\app\Views\layout\layout.php(45): view('admin/pembelian...')
+#9 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\View\View.php(213): include('D:\\wamp64\\www\\i...')
+#10 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Common.php(1184): CodeIgniter\View\View->render('layout/layout', Array, true)
+#12 D:\wamp64\www\indo\app\Controllers\Pembelian.php(283): view('layout/layout', Array)
+#13 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Pembelian->pesanan_pembelian_entri()
+#14 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#15 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2023-05-03 06:27:54 --> Table 'indo_db.supplier' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `supplier`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `supplier`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `supplier`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `supplier`', [], false)
+ 5 APPPATH\Views\admin\pembelian\transaksi\pesananpembelianentri.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\View\View.php(213): include('D:\\wamp64\\www\\indo\\app\\Views\\admin\\pembelian\\transaksi\\pesananpembelianentri.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pembelian/transaksi/pesananpembelianentri', [], true)
+ 9 APPPATH\Views\layout\layout.php(45): view('admin/pembelian/transaksi/pesananpembelianentri')
+10 SYSTEMPATH\View\View.php(213): include('D:\\wamp64\\www\\indo\\app\\Views\\layout\\layout.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/layout', [], true)
+13 APPPATH\Controllers\Pembelian.php(283): view('layout/layout', [...])
+14 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pembelian->pesanan_pembelian_entri()
+15 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+16 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 06:51:49 --> mysqli_sql_exception: Unknown column 'dudang' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `in...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Inventory.php(251): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Inventory->barang_data_submit('0')
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 06:51:49 --> Unknown column 'dudang' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `inventory_barang` (`kategori`, `namebarang`, `hargajual`, `hargabeli`, `dudang`, `rak`, `ppn`, `merk`, `kodeitem`, `satuan`, `stak`, `stokmin`, `stokmax`, `cabang`) VALUES (\'0\', \'Nothing\', \'0\', \'0\', \'0\', \'0\', \'0\', \'0\', \'\', \'0\', \'0\', \'0\', \'0\', \'0\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `inventory_barang` (`kategori`, `namebarang`, `hargajual`, `hargabeli`, `dudang`, `rak`, `ppn`, `merk`, `kodeitem`, `satuan`, `stak`, `stokmin`, `stokmax`, `cabang`) VALUES (\'0\', \'Nothing\', \'0\', \'0\', \'0\', \'0\', \'0\', \'0\', \'\', \'0\', \'0\', \'0\', \'0\', \'0\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `inventory_barang` (`kategori`, `namebarang`, `hargajual`, `hargabeli`, `dudang`, `rak`, `ppn`, `merk`, `kodeitem`, `satuan`, `stak`, `stokmin`, `stokmax`, `cabang`) VALUES (\'0\', \'Nothing\', \'0\', \'0\', \'0\', \'0\', \'0\', \'0\', \'\', \'0\', \'0\', \'0\', \'0\', \'0\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `inventory_barang` (`kategori`, `namebarang`, `hargajual`, `hargabeli`, `dudang`, `rak`, `ppn`, `merk`, `kodeitem`, `satuan`, `stak`, `stokmin`, `stokmax`, `cabang`) VALUES (:kategori:, :namebarang:, :hargajual:, :hargabeli:, :dudang:, :rak:, :ppn:, :merk:, :kodeitem:, :satuan:, :stak:, :stokmin:, :stokmax:, :cabang:)', [...], false)
+ 5 APPPATH\Controllers\Inventory.php(251): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Inventory->barang_data_submit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventory))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 07:26:22 --> syntax error, unexpected 'echo' (T_ECHO)
+in APPPATH\Views\admin\penjualan\transaksi\pasananmasukentri.php on line 40.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/penjualan/transaksi/pasananmasukentri', [], true)
+ 3 APPPATH\Views\layout\layout.php(45): view('admin/penjualan/transaksi/pasananmasukentri')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\wamp64\\www\\indo\\app\\Views\\layout\\layout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/layout', [], true)
+ 7 APPPATH\Controllers\Penjualan.php(383): view('layout/layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Penjualan->pesanan_masuk_entri('5')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 07:44:40 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\penjualan\transaksi\pasananmasukentri.php on line 384.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/penjualan/transaksi/pasananmasukentri', [], true)
+ 3 APPPATH\Views\layout\layout.php(45): view('admin/penjualan/transaksi/pasananmasukentri')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\wamp64\\www\\indo\\app\\Views\\layout\\layout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/layout', [], true)
+ 7 APPPATH\Controllers\Penjualan.php(383): view('layout/layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Penjualan->pesanan_masuk_entri('17')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 08:14:30 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\penjualan\transaksi\pasananmasukentri.php on line 384.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/penjualan/transaksi/pasananmasukentri', [], true)
+ 3 APPPATH\Views\layout\layout.php(45): view('admin/penjualan/transaksi/pasananmasukentri')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\wamp64\\www\\indo\\app\\Views\\layout\\layout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/layout', [], true)
+ 7 APPPATH\Controllers\Penjualan.php(383): view('layout/layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Penjualan->pesanan_masuk_entri('17')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 08:14:33 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\penjualan\transaksi\pasananmasukentri.php on line 384.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/penjualan/transaksi/pasananmasukentri', [], true)
+ 3 APPPATH\Views\layout\layout.php(45): view('admin/penjualan/transaksi/pasananmasukentri')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\wamp64\\www\\indo\\app\\Views\\layout\\layout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/layout', [], true)
+ 7 APPPATH\Controllers\Penjualan.php(383): view('layout/layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Penjualan->pesanan_masuk_entri('17')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 08:15:14 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\penjualan\transaksi\pasananmasukentri.php on line 384.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/penjualan/transaksi/pasananmasukentri', [], true)
+ 3 APPPATH\Views\layout\layout.php(45): view('admin/penjualan/transaksi/pasananmasukentri')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\wamp64\\www\\indo\\app\\Views\\layout\\layout.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/layout', [], true)
+ 7 APPPATH\Controllers\Penjualan.php(383): view('layout/layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Penjualan->pesanan_masuk_entri('17')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 08:38:53 --> Invalid argument supplied for foreach()
+in APPPATH\Views\admin\pembelian\transaksi\pra_pembelian_entri.php on line 143.
+ 1 APPPATH\Views\admin\pembelian\transaksi\pra_pembelian_entri.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'D:\\wamp64\\www\\indo\\app\\Views\\admin\\pembelian\\transaksi\\pra_pembelian_entri.php', 143, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\wamp64\\www\\indo\\app\\Views\\admin\\pembelian\\transaksi\\pra_pembelian_entri.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/pembelian/transaksi/pra_pembelian_entri', [], true)
+ 5 APPPATH\Views\layout\layout.php(45): view('admin/pembelian/transaksi/pra_pembelian_entri')
+ 6 SYSTEMPATH\View\View.php(213): include('D:\\wamp64\\www\\indo\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 APPPATH\Controllers\Pembelian.php(184): view('layout/layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pembelian->pra_pembelian_entri()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-03 09:47:20 --> Too few arguments to function App\Controllers\Pembelian::pesanan_pembelian_add(), 0 passed in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Pembelian.php on line 286.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pembelian->pesanan_pembelian_add()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-03 09:59:12 --> mysqli_sql_exception: Unknown column 'date' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Pembelian.php(314): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Pembelian->pesanan_pembelian_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-03 09:59:12 --> Unknown column 'date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pesanan_pembelian` (`date`, `nomor`, `keterangan`, `items`) VALUES (\'2023-04-17\', NULL, NULL, \'[{\\"item_kode\\":\\"KB.2023.05.000001\\",\\"qty\\":\\"1\\",\\"stock\\":null,\\"price\\":\\"1\\",\\"sat\\":\\"PCS\\"}]\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pesanan_pembelian` (`date`, `nomor`, `keterangan`, `items`) VALUES (\'2023-04-17\', NULL, NULL, \'[{\\"item_kode\\":\\"KB.2023.05.000001\\",\\"qty\\":\\"1\\",\\"stock\\":null,\\"price\\":\\"1\\",\\"sat\\":\\"PCS\\"}]\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pesanan_pembelian` (`date`, `nomor`, `keterangan`, `items`) VALUES (\'2023-04-17\', NULL, NULL, \'[{\\"item_kode\\":\\"KB.2023.05.000001\\",\\"qty\\":\\"1\\",\\"stock\\":null,\\"price\\":\\"1\\",\\"sat\\":\\"PCS\\"}]\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pesanan_pembelian` (`date`, `nomor`, `keterangan`, `items`) VALUES (:date:, :nomor:, :keterangan:, :items:)', [...], false)
+ 5 APPPATH\Controllers\Pembelian.php(314): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pembelian->pesanan_pembelian_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembelian))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

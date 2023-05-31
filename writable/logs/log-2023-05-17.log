@@ -1,0 +1,36 @@
+CRITICAL - 2023-05-17 07:51:29 --> The route for "http://10.10.10.2/indo/kasbank/transaksi/transferbank" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://10.10.10.2/indo/kasbank/transaksi/transferbank')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Kasbank.php(158): redirect('http://10.10.10.2/indo/kasbank/transaksi/transferbank')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kasbank->transfer_bank_add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasbank))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 07:51:31 --> The route for "http://10.10.10.2/indo/kasbank/transaksi/transferbank" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://10.10.10.2/indo/kasbank/transaksi/transferbank')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Kasbank.php(158): redirect('http://10.10.10.2/indo/kasbank/transaksi/transferbank')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kasbank->transfer_bank_add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasbank))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 07:51:37 --> The route for "http://10.10.10.2/indo/kasbank/transaksi/transferbank" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://10.10.10.2/indo/kasbank/transaksi/transferbank')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Kasbank.php(158): redirect('http://10.10.10.2/indo/kasbank/transaksi/transferbank')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kasbank->transfer_bank_add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasbank))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 07:51:48 --> The route for "http://10.10.10.2/indo/kasbank/transaksi/transferbank" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://10.10.10.2/indo/kasbank/transaksi/transferbank')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Kasbank.php(158): redirect('http://10.10.10.2/indo/kasbank/transaksi/transferbank')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kasbank->transfer_bank_add()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasbank))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

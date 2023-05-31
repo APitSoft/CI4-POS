@@ -1,0 +1,84 @@
+CRITICAL - 2023-05-27 07:21:40 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_awal_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 07:21:48 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_awal_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 07:22:51 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_awal_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 07:23:17 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_awal_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 07:24:43 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 09:47:44 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 09:48:23 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 09:48:36 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 09:48:46 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 09:48:52 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 09:49:37 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 09:50:38 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 09:53:37 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 09:55:13 --> Call to a member function select() on null
+in APPPATH\Controllers\Bukubesar.php on line 242.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->saldo_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

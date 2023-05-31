@@ -1,0 +1,713 @@
+ERROR - 2023-05-20 09:59:10 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:10 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:10 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:10 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:10 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:10 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:11 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:11 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:11 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:11 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:12 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:12 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:12 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:12 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:12 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:12 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:12 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:12 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:12 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:12 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:13 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:13 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:13 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:13 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 09:59:13 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 09:59:13 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:32 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:32 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:32 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:32 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:33 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:33 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:33 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:33 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:33 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:33 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:37 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:37 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:38 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:38 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:38 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:38 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:38 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:38 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:39 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:39 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:40 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:40 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:40 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:40 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:40 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:40 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:40 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:40 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:41 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:41 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:41 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:41 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:41 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:41 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-20 10:00:42 --> mysqli_sql_exception: Unknown column 'kodeakun' in 'field list' in D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ko...', 0)
+#1 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 D:\wamp64\www\indo\app\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+#6 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+#7 D:\wamp64\www\indo\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\wamp64\www\indo\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-20 10:00:42 --> Unknown column 'kodeakun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (\'45324\', \'sdfsd\', \'BANK\', \'110101\', \'dasd\', \'asd\', \'Y\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kode_akun` (`kodeakun`, `namaakun`, `tipeakun`, `akuninduk`, `kodepenerimaan`, `kodepengeluaran`, `akuntransaksi`) VALUES (:kodeakun:, :namaakun:, :tipeakun:, :akuninduk:, :kodepenerimaan:, :kodepengeluaran:, :akuntransaksi:)', [...], false)
+ 5 APPPATH\Controllers\Bukubesar.php(127): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Bukubesar->kode_akun_add()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bukubesar))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

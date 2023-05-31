@@ -1,0 +1,12 @@
+CRITICAL - 2023-05-18 04:43:37 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Kasbank.php on line 153.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kasbank->transfer_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasbank))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 04:43:41 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Kasbank.php on line 153.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kasbank->transfer_table()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasbank))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
